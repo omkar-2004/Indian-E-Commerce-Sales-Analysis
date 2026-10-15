@@ -26,8 +26,3 @@ cost, and gross profit margin percentage for each category and subcategory.
 Rank them by the lowest profit margin to identify underperforming areas.
 */
 
-SELECT 
-	sales_amount
-	(sales_amount - product_cost) AS profit,
-	(sales_amount - product_cost) / sales_amount AS profit_margin
-FROM gold.SalesData
